@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController 
+-(IBAction)buttonTaped:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *lab;
 
 @end
 

@@ -13,6 +13,12 @@
 @end
 
 @implementation ViewController
+int i = 0;
+
+-(IBAction)buttonTaped:(id)sender{
+    self.lab.text = [NSString stringWithFormat:(@"%d"), ++i];
+    //NSLog(@"%d", ++i);
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
