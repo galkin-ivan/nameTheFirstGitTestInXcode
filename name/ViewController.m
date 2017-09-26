@@ -17,7 +17,7 @@ int i = 0;
 
 -(IBAction)buttonTaped:(id)sender{
     self.lab.text = [NSString stringWithFormat:(@"%d"), ++i];
-    //NSLog(@"%d", ++i);
+    NSLog(@"%d", ++i);//jfkjdfspo
 }
 
 - (void)viewDidLoad {
